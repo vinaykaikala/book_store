@@ -1,0 +1,11 @@
+name: base
+channels:
+  - conda-forge
+  - bioconda
+  - r
+  - defaults
+dependencies:
+  - pip      
+  - pip:
+    - celery==4.3.0      
+    - git+https://github.com/vinaykaikala/book_store.git
